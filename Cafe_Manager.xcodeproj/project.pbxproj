@@ -99,10 +99,12 @@
 		2ACE76E42628319B005BFCDA /* Cafe_Manager */ = {
 			isa = PBXGroup;
 			children = (
+				2ACE771826283521005BFCDA /* Controllers */,
+				2ACE7717262834F7005BFCDA /* Models */,
+				2ACE771626283445005BFCDA /* Views */,
 				2ACE76E52628319B005BFCDA /* AppDelegate.swift */,
 				2ACE76E72628319B005BFCDA /* SceneDelegate.swift */,
 				2ACE76E92628319B005BFCDA /* ViewController.swift */,
-				2ACE76EB2628319B005BFCDA /* Main.storyboard */,
 				2ACE76EE262831AB005BFCDA /* Assets.xcassets */,
 				2ACE76F0262831AB005BFCDA /* LaunchScreen.storyboard */,
 				2ACE76F3262831AB005BFCDA /* Info.plist */,
@@ -126,6 +128,28 @@
 				2ACE7709262831AD005BFCDA /* Info.plist */,
 			);
 			path = Cafe_ManagerUITests;
+			sourceTree = "<group>";
+		};
+		2ACE771626283445005BFCDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE76EB2628319B005BFCDA /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2ACE7717262834F7005BFCDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2ACE771826283521005BFCDA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

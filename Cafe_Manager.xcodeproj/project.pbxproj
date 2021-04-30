@@ -17,11 +17,8 @@
 		2A5700A0262B30270023D094 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57009F262B30270023D094 /* ForgetPasswordViewController.swift */; };
 		2A5700A2262B683C0023D094 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5700A1262B683C0023D094 /* StoreViewController.swift */; };
 		2A5700A5262B68760023D094 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5700A3262B68760023D094 /* PreviewViewController.swift */; };
-		2A5700A6262B68760023D094 /* PreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A5700A4262B68760023D094 /* PreviewViewController.xib */; };
 		2A5700A9262B69030023D094 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5700A7262B69030023D094 /* CategoryViewController.swift */; };
-		2A5700AA262B69030023D094 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A5700A8262B69030023D094 /* CategoryViewController.xib */; };
-		2A5700AE262B693C0023D094 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A5700AC262B693C0023D094 /* MenuViewController.xib */; };
-		2A5700B02639DBCF0023D094 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5700AF2639DBCF0023D094 /* AddItemViewController.swift */; };
+		2A5700B02639DBCF0023D094 /* addItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5700AF2639DBCF0023D094 /* addItemViewController.swift */; };
 		2A5700B42639DCBE0023D094 /* PreviewProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5700B32639DCBE0023D094 /* PreviewProductViewController.swift */; };
 		2A5700B8263BDFFC0023D094 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5700B7263BDFFC0023D094 /* CategoryTableViewCell.swift */; };
 		2A5700BA263BE8B30023D094 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5700B9263BE8B30023D094 /* Category.swift */; };
@@ -66,11 +63,8 @@
 		2A57009F262B30270023D094 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		2A5700A1262B683C0023D094 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		2A5700A3262B68760023D094 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
-		2A5700A4262B68760023D094 /* PreviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewViewController.xib; sourceTree = "<group>"; };
 		2A5700A7262B69030023D094 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
-		2A5700A8262B69030023D094 /* CategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
-		2A5700AC262B693C0023D094 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
-		2A5700AF2639DBCF0023D094 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		2A5700AF2639DBCF0023D094 /* addItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addItemViewController.swift; sourceTree = "<group>"; };
 		2A5700B32639DCBE0023D094 /* PreviewProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProductViewController.swift; sourceTree = "<group>"; };
 		2A5700B7263BDFFC0023D094 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		2A5700B9263BE8B30023D094 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -198,9 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				2ACE76EB2628319B005BFCDA /* Main.storyboard */,
-				2A5700A4262B68760023D094 /* PreviewViewController.xib */,
-				2A5700A8262B69030023D094 /* CategoryViewController.xib */,
-				2A5700AC262B693C0023D094 /* MenuViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,7 +217,7 @@
 				2A5700B32639DCBE0023D094 /* PreviewProductViewController.swift */,
 				2A5700BE263C09490023D094 /* ProductTableViewCell.swift */,
 				2A5700A3262B68760023D094 /* PreviewViewController.swift */,
-				2A5700AF2639DBCF0023D094 /* AddItemViewController.swift */,
+				2A5700AF2639DBCF0023D094 /* addItemViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -364,11 +355,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ACE76F2262831AB005BFCDA /* LaunchScreen.storyboard in Resources */,
-				2A5700A6262B68760023D094 /* PreviewViewController.xib in Resources */,
-				2A5700AA262B69030023D094 /* CategoryViewController.xib in Resources */,
 				2A570095262ADE150023D094 /* GoogleService-Info.plist in Resources */,
 				2ACE76EF262831AB005BFCDA /* Assets.xcassets in Resources */,
-				2A5700AE262B693C0023D094 /* MenuViewController.xib in Resources */,
 				2ACE76ED2628319B005BFCDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,7 +492,7 @@
 				2ACE76EA2628319B005BFCDA /* ViewController.swift in Sources */,
 				2A5700A5262B68760023D094 /* PreviewViewController.swift in Sources */,
 				2A57009C262AFBE90023D094 /* RegisterViewController.swift in Sources */,
-				2A5700B02639DBCF0023D094 /* AddItemViewController.swift in Sources */,
+				2A5700B02639DBCF0023D094 /* addItemViewController.swift in Sources */,
 				2A5700B8263BDFFC0023D094 /* CategoryTableViewCell.swift in Sources */,
 				2ACE76E62628319B005BFCDA /* AppDelegate.swift in Sources */,
 				2A5700A2262B683C0023D094 /* StoreViewController.swift in Sources */,
